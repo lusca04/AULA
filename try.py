@@ -1,6 +1,6 @@
-print('Bem Vindo a Calculadora Luquinhas')
+print('Bem Vindo a Calculadora')
 
-escolha = input("Escolha (soma/soma3/menos/menos3/mult/mult3/div):")
+escolha = input("Escolha (soma/sub/mult/div):")
 Quantidade_de_Números = input("Quantidade de números que vai ser utilizado (2/3/4/5/6/7/8/9/10):")
 
 if escolha == "soma" and Quantidade_de_Números == "2":
@@ -84,25 +84,25 @@ if escolha == "soma" and Quantidade_de_Números == "10":
     n10 = float(input("Valor 10:"))
     soma10 = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10
     print("O Resultado da soma com dois valores é:", soma10)
-if escolha == "menos" and Quantidade_de_Números == "2":
+if escolha == "sub" and Quantidade_de_Números == "2":
     n1 = float(input("Valor 1:"))
     n2 = float(input("Valor 2:"))
     menos2 = n1 - n2
     print("O Resultado da subtração com dois valores é:", menos2)
-if escolha == "menos" and Quantidade_de_Números == "3":
+if escolha == "sub" and Quantidade_de_Números == "3":
     n1 = float(input("Valor 1:"))
     n2 = float(input("Valor 2:"))
     n3 = float(input("Valor 3:"))
     menos3 = n1 - n2 - n3
     print("O Resultado da subtração com três valores é:", menos3)
-if escolha == "menos" and Quantidade_de_Números == "4":
+if escolha == "sub" and Quantidade_de_Números == "4":
     n1 = float(input("Valor 1:"))
     n2 = float(input("Valor 2:"))
     n3 = float(input("Valor 3:"))
     n4 = float(input("Valor 4:"))
     menos4 = n1 - n2 - n3 - n4
     print("O Resultado da soma com dois valores é:", menos4)
-if escolha == "menos" and Quantidade_de_Números == "5":
+if escolha == "sub" and Quantidade_de_Números == "5":
     n1 = float(input("Valor 1:"))
     n2 = float(input("Valor 2:"))
     n3 = float(input("Valor 3:"))
@@ -110,7 +110,7 @@ if escolha == "menos" and Quantidade_de_Números == "5":
     n5 = float(input("Valor 5:"))
     menos5 = n1 - n2 - n3 - n4 - n5
     print("O Resultado da soma com dois valores é:", menos5)
-if escolha == "menos" and Quantidade_de_Números == "6":
+if escolha == "sub" and Quantidade_de_Números == "6":
     n1 = float(input("Valor 1:"))
     n2 = float(input("Valor 2:"))
     n3 = float(input("Valor 3:"))
@@ -119,7 +119,7 @@ if escolha == "menos" and Quantidade_de_Números == "6":
     n6 = float(input("Valor 6:"))
     menos6 = n1 - n2 - n3 - n4 - n5 - n6
     print("O Resultado da soma com dois valores é:", menos6)
-if escolha == "menos" and Quantidade_de_Números == "7":
+if escolha == "sub" and Quantidade_de_Números == "7":
     n1 = float(input("Valor 1:"))
     n2 = float(input("Valor 2:"))
     n3 = float(input("Valor 3:"))
@@ -129,7 +129,7 @@ if escolha == "menos" and Quantidade_de_Números == "7":
     n7 = float(input("Valor 7:"))
     menos7 = n1 - n2 - n3 - n4 - n5 - n6 - n7
     print("O Resultado da soma com dois valores é:", menos7)
-if escolha == "menos" and Quantidade_de_Números == "8":
+if escolha == "sub" and Quantidade_de_Números == "8":
     n1 = float(input("Valor 1:"))
     n2 = float(input("Valor 2:"))
     n3 = float(input("Valor 3:"))
@@ -140,7 +140,7 @@ if escolha == "menos" and Quantidade_de_Números == "8":
     n8 = float(input("Valor 8:"))
     menos8 = n1 - n2 - n3 - n4 - n5 - n6 - n7 - n8
     print("O Resultado da soma com dois valores é:", menos8)
-if escolha == "menos" and Quantidade_de_Números == "9":
+if escolha == "sub" and Quantidade_de_Números == "9":
     n1 = float(input("Valor 1:"))
     n2 = float(input("Valor 2:"))
     n3 = float(input("Valor 3:"))
@@ -152,7 +152,7 @@ if escolha == "menos" and Quantidade_de_Números == "9":
     n9 = float(input("Valor 9:"))
     menos9 = n1 - n2 - n3 - n4 - n5 - n6 - n7 - n8 - n9
     print("O Resultado da soma com dois valores é:", menos9)
-if escolha == "menos" and Quantidade_de_Números == "10":
+if escolha == "sub" and Quantidade_de_Números == "10":
     n1 = float(input("Valor 1:"))
     n2 = float(input("Valor 2:"))
     n3 = float(input("Valor 3:"))
