@@ -6,8 +6,9 @@ try:
 except Exception as e:
     print("Poderia verificar os operadores por favor?")
 while True:
-    texto2 = input("deseja continuar sua conta?")
+    texto2 = input("deseja continuar?(sim ou nao)")
     if texto2 == "nao":
+        print("volte sempre :)")
         break
     else:
         texto2 == "sim"
