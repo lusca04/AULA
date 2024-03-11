@@ -9334,3 +9334,5 @@ if escolha == "raiz":
                     print("A raiz cúbica de", n1, "é:", raiz)
         if texto3 == "nao":
             break
+
+kkkkkkkk
