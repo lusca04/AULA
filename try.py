@@ -1,7 +1,7 @@
 print('Bem Vindo a Calculadora')
 
 escolha = input("Escolha (soma/sub/mult/div):")
-Quantidade_de_Números = input("Quantidade de números que vai ser utilizado (2/3/4/5/6/7/8/9/10):")
+Quantidade_de_Números = input("Quantidade de valores que vai ser utilizado (2/3/4/5/6/7/8/9/10):")
 
 if escolha == "soma" and Quantidade_de_Números == "2":
     n1 = float(input("Valor 1:"))
