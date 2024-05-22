@@ -21,11 +21,11 @@ while semestre <= 2:
     if semestre == 2:
         boletim[1] = (((chek1+chek2+chek3-menor_chek+spt1+spt2)/4)*0.4)+(glb*0.6)
     semestre = semestre + 1
+boletim[3] = (boletim[0]*0.4 + boletim[1]*0.6)
 #============================================ BOLETIM ========================================
+print(f"Sua presença no ano é de: {boletim[2]:.2f}")
 print(f"Sua nota do primeiro semestre é: {boletim[0]:.0f}")
 print(f"Sua nota do segundo semestre é: {boletim[1]:.0f}")
-print(f"Sua presença no ano é de: {boletim[2]:.2f}")
-boletim[3] = (boletim[0]*0.4 + boletim[1]*0.6)
 print(f"Sua média final é: {boletim[3]:.2f}")
 print()
 #================================= Presenca//nota = resultado final ==========================
