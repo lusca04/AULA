@@ -1,7 +1,22 @@
-
-        if check2 < check1:
+sem = 1
+mediafin = 0
+notas_S1 = []
+notas_S2 = []
+while True:
+    disc = input("\nQual a disciplina? ").capitalize()
+    presenca = int(input("Frequência anual em porcentagem = "))
+    while sem <= 2:
+        print(f"\nNotas do {sem}º semestre:")
+        check1 = int(input("Checkpoint 1 = "))
+        check2 = int(input("Checkpoint 2 = "))
+        check3 = int(input("Checkpoint 3 = "))
+        sprint1 = int(input("Sprint 1 = "))
+        sprint2 = int(input("Sprint 2 = "))
+        gs = int(input("Global Solution = "))
+        menor_nota = check1
+        if check2 < menor_nota:
             menor_nota = check2
-        if check3 < check1:
+        if check3 < menor_nota:
             menor_nota = check3
         mediasem = (((check1 + check2 + check3 + sprint1 + sprint2 - menor_nota)/4) * 0.4) + (gs * 0.6)
         if sem == 1:
@@ -27,8 +42,8 @@
             if x1 == 5:
                 tipo = 'Global Solution'
         if x1 == len(notas_S1):
-            print("\nNotas do 2º semestre:")
-            x2 = 0
+                print("\nNotas do 2º semestre:")
+                x2 = 0
         if x1 >= len(notas_S1):
             notas = notas_S2[:]
             if x2 < 3:
@@ -41,9 +56,9 @@
         x2 += 1
         x1 += 1
     print(f"\nMédia final = {mediafin:.0f}")
-    if mediafin > 60 and presenca >= 75:
+    if mediafin >= 60 and presenca >= 75:
         print("Situação = Aprovado")
-    elif mediafin >= 40 and presenca >= 75:
+    elif mediafin > 40 and mediafin < 60 and presenca >= 75:
         print("Situação = Exame")
     else:
         print("Situação = Reprovado")
