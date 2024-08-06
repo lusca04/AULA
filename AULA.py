@@ -68,4 +68,53 @@
 # print(idade)
 # print(idade_backup)
 # del idade[2]                                    #deleta a coisa na posição
-
+# ------------------------------------------------- 2 semestre ---------------------------------------------------------------
+# alunos = ["Lucas", "luquinhas", "lulu", "lu"]
+# for celibato in alunos:
+#     print(celibato)
+# ------------------------------------------------------------------------------
+# vini= [0,1,2,3,4,5,6,7,8,9,10]
+# vinis = float(input("DIgite o Numero desejado: "))
+# for sapo_cego in vini:
+#     if sapo_cego == vinis:
+#         print("ACHEI")
+#         break
+# else:
+#     print("Tem certeza boy?")
+# ----------------------------------------------------------------------------
+# name= ["Lucas", "Lulu", "Lu", "Luquinhas"]
+# nomes = input("DIgite o nome desejado: ").capitalize()
+# for n in name:
+#     if n == nomes:
+#         print("ACHEI")
+#         break
+# else:
+#     print("Tem certeza boy?")
+# -----------------------------------------------------------------------------
+# ii = 0
+# iii = int(input("Digite qual tabuada voce quer: "))
+# while ii <= 10:
+#     for i in range(0,(iii*10)+1,iii):
+#         print(iii, "x ", ii, "=", i)
+#         ii = ii + 1
+#     break
+# ------------------------------------------------------------------------------
+# ii = 0
+# iii = int(input("Digite qual tabuada voce quer: "))
+# q = [0]
+# l = q[0]
+# ll = q[0]
+# for i in range(0,(iii*10)+1,iii):
+#     q.append(i)
+#     # print(q)
+#     for u in q:
+#         if u > l:
+#             l = u
+#             # print(q)
+#             # print(l)
+#         if u == 0:
+#             ll = u * 2
+#             # print(ll)
+#             break
+# print(l)
+# print(ll)
