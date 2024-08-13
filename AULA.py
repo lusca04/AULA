@@ -118,3 +118,36 @@
 #             break
 # print(l)
 # print(ll)
+# -------------------------------------------------------------------------------------------
+# tabela = {"letuce": 0.45, "potato": 1.2, "tomato": 2.3, "been": 1.5}
+# print(tabela)
+# print(cadastro)
+# cadastro.append([dados]["1"])
+# cadastro = {"1":["43772981860", "Lucas",2005,"digimom"], "48150489835":["Gustavo",2004, "pokémom"],
+#             "sp":["Paulista"], "rj":["ladrão"]}
+# print(cadastro)
+# print(cadastro[43772981860])
+# cadastro ["43772981860"][0] = "Lucas"
+# print(cadastro["43772981860"])
+# cadastro = {"1":[0,0,0], "2":[0,0,0], "3":[0,0,0]}
+# while True:
+#     cadastro["1"][0] = input("Cpf: ")
+#     cadastro["1"][1] = input("Nome: ")
+#     cadastro["1"][2] = input("data de nascimento: ")
+#     cadastro["2"][0] = input("Cpf: ")
+#     cadastro["2"][1] = input("Nome: ")
+#     cadastro["2"][2] = input("data de nascimento: ")
+#     break
+# print(cadastro["1"])
+# print(f"Infos: {cadastro["1"][1]} do cpf {cadastro["1"][0]} nasceu em {cadastro["1"][2]}")
+
+# cadastro = {"43772981860":["Lucas",2005,"digimom", 18],
+            # "48150489835":["Gustavo",2004, "pokémom", 19]}
+# chaves = input("key pass:")
+# if chaves == cadastro.items(valores[2]):
+    # for chave, valores in cadastro.items():
+        # print("nome:", valores[0])
+        # print("cpf:", chave)
+        # print("Keyword", valores[2])
+        # print(f"Ano nasc. e idade: {valores[1]}/{valores[3]}\n")
+        # print("Keyword", valores[2])
