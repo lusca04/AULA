@@ -1,0 +1,23 @@
+
+  // -----------------------cont. tempo---------------------------
+  while(digitalRead(10)==1){}
+  while(digitalRead(10)==0){}
+  tempo = millis() - tempo;
+  tempof = tempo;
+  Serial.print(tempof);
+  lcd.print(tempof);
+  delay(3000);
+  lcd.clear();
+  tempof = tempof/1000;
+  grv = 1.954/(tempof);
+  grv = grv/(tempof);
+  Serial.print(grv);
+  lcd.setCursor(0,1)
+  lcd.print(grv, 2);
+  delay(5000);
+}
+// --------------------------comentario-------------------------- 
+  //Serial.print(digitalRead(8));
+  //Serial.print("/");
+  //Serial.print(digitalRead(12));
+ 
