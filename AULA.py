@@ -151,3 +151,31 @@
         # print("Keyword", valores[2])
         # print(f"Ano nasc. e idade: {valores[1]}/{valores[3]}\n")
         # print("Keyword", valores[2])
+# ------------------------------------------------------------------------------------------------------------
+# nomes = ("A1", "B2" ,"C1", "D2", "E1", "F2", "G1")
+# # print(nomes)
+# # nem da pra mudar ssa poha
+# # print(nomes[1])
+# a, b, c, d, e, f, g = nomes
+# print(a)
+# print(b)
+# print(c)
+# print(e)
+# print(f)
+# print(g)
+# print(type(nomes))
+
+# food = ("bolo",)
+# # tem q ter 2 algarismos dentro da lista para ser uma truple
+# print(food)
+# print(type(food))
+# print(len(food))
+# 
+# animais = ["ARTHUR", "Gustavo", "Lucas", "vinicius"]
+# animais_tupla = tuple(animais)
+# animais_tupla_02 = tuple(animais)
+# print(tuple(animais))
+# print(animais_tupla_02, animais_tupla)
+# print(animais_tupla)
+# a,b,c,d = animais_tupla
+# print(a)
