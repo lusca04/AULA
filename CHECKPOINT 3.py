@@ -42,8 +42,8 @@ while True:
             if x1 == 5:
                 tipo = 'Global Solution'
         if x1 == len(notas_S1):
-                print("\nNotas do 2º semestre:")
-                x2 = 0
+            print("\nNotas do 2º semestre:")
+            x2 = 0
         if x1 >= len(notas_S1):
             notas = notas_S2[:]
             if x2 < 3:
@@ -58,7 +58,7 @@ while True:
     print(f"\nMédia final = {mediafin:.0f}")
     if mediafin >= 60 and presenca >= 75:
         print("Situação = Aprovado")
-    elif mediafin > 40 and mediafin < 60 and presenca >= 75:
+    elif mediafin >= 40 and presenca >= 75:
         print("Situação = Exame")
     else:
         print("Situação = Reprovado")
